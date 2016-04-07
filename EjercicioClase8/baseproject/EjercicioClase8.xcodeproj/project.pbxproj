@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A98CDADF1CB5ED290037F25E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98CDADE1CB5ED290037F25E /* User.swift */; };
 		F121D0B91CAF1B2600B26657 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F121D0B81CAF1B2600B26657 /* AppDelegate.swift */; };
 		F121D0BE1CAF1B2600B26657 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F121D0BC1CAF1B2600B26657 /* Main.storyboard */; };
 		F121D0C01CAF1B2600B26657 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F121D0BF1CAF1B2600B26657 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A98CDADE1CB5ED290037F25E /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		F121D0B51CAF1B2600B26657 /* EjercicioClase8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EjercicioClase8.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F121D0B81CAF1B2600B26657 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F121D0BD1CAF1B2600B26657 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				F121D0BF1CAF1B2600B26657 /* Assets.xcassets */,
 				F121D0C11CAF1B2600B26657 /* LaunchScreen.storyboard */,
 				F121D0C41CAF1B2600B26657 /* Info.plist */,
+				A98CDADE1CB5ED290037F25E /* User.swift */,
 			);
 			path = EjercicioClase8;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A98CDADF1CB5ED290037F25E /* User.swift in Sources */,
 				F121D0CE1CAF1C0600B26657 /* ViewController.swift in Sources */,
 				F121D0CC1CAF1BED00B26657 /* Int+Random.swift in Sources */,
 				F121D0B91CAF1B2600B26657 /* AppDelegate.swift in Sources */,
@@ -261,6 +265,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = EjercicioClase8/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ucu2016.EjercicioClase8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -272,6 +277,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = EjercicioClase8/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ucu2016.EjercicioClase8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -297,6 +303,7 @@
 				F121D0C91CAF1B2600B26657 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5CE3C84EAEBC10C6F0B469B2 /* Pods_TuTurno.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FD3BA3E5C74490BF1975CAD /* Pods_TuTurno.framework */; };
+		8AC23A401D0B7D1800B8280E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC23A3F1D0B7D1800B8280E /* AppDelegate.swift */; };
+		8AC23A421D0B7D1800B8280E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC23A411D0B7D1800B8280E /* HomeViewController.swift */; };
+		8AC23A451D0B7D1800B8280E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AC23A431D0B7D1800B8280E /* Main.storyboard */; };
+		8AC23A471D0B7D1800B8280E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AC23A461D0B7D1800B8280E /* Assets.xcassets */; };
+		8AC23A4A1D0B7D1800B8280E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AC23A481D0B7D1800B8280E /* LaunchScreen.storyboard */; };
+		8AC23A521D0B7D2A00B8280E /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC23A511D0B7D2A00B8280E /* APIClient.swift */; };
+		8AC23A541D0B7F5300B8280E /* Turno.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC23A531D0B7F5300B8280E /* Turno.swift */; };
+		8AC5D5721D122A6E001FA497 /* HistoricalTurnos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC5D5711D122A6E001FA497 /* HistoricalTurnos.swift */; };
+		8AC5D5741D122FE8001FA497 /* HistoricalTurnosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC5D5731D122FE8001FA497 /* HistoricalTurnosViewController.swift */; };
+		8AE2B1631D14CB000038724D /* TBCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE2B1621D14CB000038724D /* TBCell.swift */; };
+		8AEA94901D0B8A0A007C5178 /* Comercio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEA948F1D0B8A0A007C5178 /* Comercio.swift */; };
+		A90949AB1D1E024300B51D7F /* TurnoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90949AA1D1E024300B51D7F /* TurnoCell.swift */; };
+		A946C5F21D1F7D7700A3219F /* QRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A946C5F11D1F7D7700A3219F /* QRViewController.swift */; };
+		A9B0EC9E1D24E8B3005E4CE7 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B0EC991D24E8B3005E4CE7 /* ForgotPasswordViewController.swift */; };
+		A9B0EC9F1D24E8B3005E4CE7 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B0EC9A1D24E8B3005E4CE7 /* LogInViewController.swift */; };
+		A9B0ECA01D24E8B3005E4CE7 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B0EC9B1D24E8B3005E4CE7 /* RegisterViewController.swift */; };
+		A9B0ECA11D24E8B3005E4CE7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B0EC9C1D24E8B3005E4CE7 /* User.swift */; };
+		A9B0ECA21D24E8B3005E4CE7 /* UserLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B0EC9D1D24E8B3005E4CE7 /* UserLogic.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		36FFBEDB74408F76C6A91E39 /* Pods-TuTurno.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TuTurno.release.xcconfig"; path = "Pods/Target Support Files/Pods-TuTurno/Pods-TuTurno.release.xcconfig"; sourceTree = "<group>"; };
+		3F9302F56C55BED8DCEC8609 /* Pods-TuTurno.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TuTurno.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TuTurno/Pods-TuTurno.debug.xcconfig"; sourceTree = "<group>"; };
+		7FD3BA3E5C74490BF1975CAD /* Pods_TuTurno.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TuTurno.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AC23A3C1D0B7D1800B8280E /* TuTurno.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TuTurno.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AC23A3F1D0B7D1800B8280E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8AC23A411D0B7D1800B8280E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8AC23A441D0B7D1800B8280E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8AC23A461D0B7D1800B8280E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8AC23A491D0B7D1800B8280E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8AC23A4B1D0B7D1800B8280E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AC23A511D0B7D2A00B8280E /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		8AC23A531D0B7F5300B8280E /* Turno.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Turno.swift; path = ../Turno.swift; sourceTree = "<group>"; };
+		8AC5D5711D122A6E001FA497 /* HistoricalTurnos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoricalTurnos.swift; sourceTree = "<group>"; };
+		8AC5D5731D122FE8001FA497 /* HistoricalTurnosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HistoricalTurnosViewController.swift; path = ../HistoricalTurnosViewController.swift; sourceTree = "<group>"; };
+		8AE2B1621D14CB000038724D /* TBCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TBCell.swift; sourceTree = "<group>"; };
+		8AEA948F1D0B8A0A007C5178 /* Comercio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Comercio.swift; path = ../Comercio.swift; sourceTree = "<group>"; };
+		A90949AA1D1E024300B51D7F /* TurnoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TurnoCell.swift; path = ../TurnoCell.swift; sourceTree = "<group>"; };
+		A946C5F11D1F7D7700A3219F /* QRViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRViewController.swift; sourceTree = "<group>"; };
+		A9B0EC991D24E8B3005E4CE7 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		A9B0EC9A1D24E8B3005E4CE7 /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		A9B0EC9B1D24E8B3005E4CE7 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		A9B0EC9C1D24E8B3005E4CE7 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		A9B0EC9D1D24E8B3005E4CE7 /* UserLogic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserLogic.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8AC23A391D0B7D1800B8280E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CE3C84EAEBC10C6F0B469B2 /* Pods_TuTurno.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		444789267D8335678C3CD1EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7FD3BA3E5C74490BF1975CAD /* Pods_TuTurno.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8AC23A331D0B7D1800B8280E = {
+			isa = PBXGroup;
+			children = (
+				8AC23A3E1D0B7D1800B8280E /* TuTurno */,
+				8AC23A3D1D0B7D1800B8280E /* Products */,
+				C9100868AD13DFCC19FE24E1 /* Pods */,
+				444789267D8335678C3CD1EF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8AC23A3D1D0B7D1800B8280E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8AC23A3C1D0B7D1800B8280E /* TuTurno.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8AC23A3E1D0B7D1800B8280E /* TuTurno */ = {
+			isa = PBXGroup;
+			children = (
+				A9B0EC981D24E770005E4CE7 /* Login */,
+				8AE2B1641D14CC770038724D /* Historical_Turnos */,
+				8AEA948F1D0B8A0A007C5178 /* Comercio.swift */,
+				8AC23A531D0B7F5300B8280E /* Turno.swift */,
+				A90949AA1D1E024300B51D7F /* TurnoCell.swift */,
+				8AC23A3F1D0B7D1800B8280E /* AppDelegate.swift */,
+				8AC23A511D0B7D2A00B8280E /* APIClient.swift */,
+				8AC23A411D0B7D1800B8280E /* HomeViewController.swift */,
+				8AC23A431D0B7D1800B8280E /* Main.storyboard */,
+				A946C5F11D1F7D7700A3219F /* QRViewController.swift */,
+				8AC23A461D0B7D1800B8280E /* Assets.xcassets */,
+				8AC23A481D0B7D1800B8280E /* LaunchScreen.storyboard */,
+				8AC23A4B1D0B7D1800B8280E /* Info.plist */,
+			);
+			path = TuTurno;
+			sourceTree = "<group>";
+		};
+		8AE2B1641D14CC770038724D /* Historical_Turnos */ = {
+			isa = PBXGroup;
+			children = (
+				8AE2B1621D14CB000038724D /* TBCell.swift */,
+				8AC5D5731D122FE8001FA497 /* HistoricalTurnosViewController.swift */,
+				8AC5D5711D122A6E001FA497 /* HistoricalTurnos.swift */,
+			);
+			name = Historical_Turnos;
+			sourceTree = "<group>";
+		};
+		A9B0EC981D24E770005E4CE7 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				A9B0EC991D24E8B3005E4CE7 /* ForgotPasswordViewController.swift */,
+				A9B0EC9A1D24E8B3005E4CE7 /* LogInViewController.swift */,
+				A9B0EC9B1D24E8B3005E4CE7 /* RegisterViewController.swift */,
+				A9B0EC9C1D24E8B3005E4CE7 /* User.swift */,
+				A9B0EC9D1D24E8B3005E4CE7 /* UserLogic.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		C9100868AD13DFCC19FE24E1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F9302F56C55BED8DCEC8609 /* Pods-TuTurno.debug.xcconfig */,
+				36FFBEDB74408F76C6A91E39 /* Pods-TuTurno.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8AC23A3B1D0B7D1800B8280E /* TuTurno */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AC23A4E1D0B7D1800B8280E /* Build configuration list for PBXNativeTarget "TuTurno" */;
+			buildPhases = (
+				640A237D120376FA57FFB7C1 /* 📦 Check Pods Manifest.lock */,
+				8AC23A381D0B7D1800B8280E /* Sources */,
+				8AC23A391D0B7D1800B8280E /* Frameworks */,
+				8AC23A3A1D0B7D1800B8280E /* Resources */,
+				CF1AFAE1ED105E70C4EEDDDA /* 📦 Embed Pods Frameworks */,
+				FFB32AF6DC8D058B05644A03 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TuTurno;
+			productName = TuTurno;
+			productReference = 8AC23A3C1D0B7D1800B8280E /* TuTurno.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8AC23A341D0B7D1800B8280E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = SP30;
+				TargetAttributes = {
+					8AC23A3B1D0B7D1800B8280E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 8AC23A371D0B7D1800B8280E /* Build configuration list for PBXProject "TuTurno" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8AC23A331D0B7D1800B8280E;
+			productRefGroup = 8AC23A3D1D0B7D1800B8280E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8AC23A3B1D0B7D1800B8280E /* TuTurno */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8AC23A3A1D0B7D1800B8280E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AC23A4A1D0B7D1800B8280E /* LaunchScreen.storyboard in Resources */,
+				8AC23A471D0B7D1800B8280E /* Assets.xcassets in Resources */,
+				8AC23A451D0B7D1800B8280E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		640A237D120376FA57FFB7C1 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CF1AFAE1ED105E70C4EEDDDA /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TuTurno/Pods-TuTurno-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFB32AF6DC8D058B05644A03 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TuTurno/Pods-TuTurno-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8AC23A381D0B7D1800B8280E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AC5D5721D122A6E001FA497 /* HistoricalTurnos.swift in Sources */,
+				8AEA94901D0B8A0A007C5178 /* Comercio.swift in Sources */,
+				A9B0EC9E1D24E8B3005E4CE7 /* ForgotPasswordViewController.swift in Sources */,
+				8AC5D5741D122FE8001FA497 /* HistoricalTurnosViewController.swift in Sources */,
+				8AC23A421D0B7D1800B8280E /* HomeViewController.swift in Sources */,
+				8AC23A401D0B7D1800B8280E /* AppDelegate.swift in Sources */,
+				A9B0ECA11D24E8B3005E4CE7 /* User.swift in Sources */,
+				8AE2B1631D14CB000038724D /* TBCell.swift in Sources */,
+				A90949AB1D1E024300B51D7F /* TurnoCell.swift in Sources */,
+				A9B0EC9F1D24E8B3005E4CE7 /* LogInViewController.swift in Sources */,
+				8AC23A541D0B7F5300B8280E /* Turno.swift in Sources */,
+				A9B0ECA21D24E8B3005E4CE7 /* UserLogic.swift in Sources */,
+				A9B0ECA01D24E8B3005E4CE7 /* RegisterViewController.swift in Sources */,
+				8AC23A521D0B7D2A00B8280E /* APIClient.swift in Sources */,
+				A946C5F21D1F7D7700A3219F /* QRViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8AC23A431D0B7D1800B8280E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AC23A441D0B7D1800B8280E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8AC23A481D0B7D1800B8280E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AC23A491D0B7D1800B8280E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8AC23A4C1D0B7D1800B8280E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8AC23A4D1D0B7D1800B8280E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8AC23A4F1D0B7D1800B8280E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F9302F56C55BED8DCEC8609 /* Pods-TuTurno.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FacebookSDKs-iOS-4",
+				);
+				INFOPLIST_FILE = TuTurno/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UCU.TuTurno;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8AC23A501D0B7D1800B8280E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36FFBEDB74408F76C6A91E39 /* Pods-TuTurno.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FacebookSDKs-iOS-4",
+				);
+				INFOPLIST_FILE = TuTurno/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UCU.TuTurno;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8AC23A371D0B7D1800B8280E /* Build configuration list for PBXProject "TuTurno" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AC23A4C1D0B7D1800B8280E /* Debug */,
+				8AC23A4D1D0B7D1800B8280E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AC23A4E1D0B7D1800B8280E /* Build configuration list for PBXNativeTarget "TuTurno" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AC23A4F1D0B7D1800B8280E /* Debug */,
+				8AC23A501D0B7D1800B8280E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8AC23A341D0B7D1800B8280E /* Project object */;
+}

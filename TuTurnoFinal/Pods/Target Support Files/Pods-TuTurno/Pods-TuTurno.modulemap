@@ -1,0 +1,6 @@
+framework module Pods_TuTurno {
+  umbrella header "Pods-TuTurno-umbrella.h"
+
+  export *
+  module * { export * }
+}

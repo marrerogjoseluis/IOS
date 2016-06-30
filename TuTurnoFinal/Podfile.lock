@@ -1,0 +1,49 @@
+PODS:
+  - Alamofire (3.0.1)
+  - Bolts (1.7.0):
+    - Bolts/AppLinks (= 1.7.0)
+    - Bolts/Tasks (= 1.7.0)
+  - Bolts/AppLinks (1.7.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.7.0)
+  - DateTools (1.7.0)
+  - FBSDKCoreKit (4.13.1):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.13.1):
+    - FBSDKCoreKit
+  - Kingfisher (2.0.4)
+  - ObjectMapper (1.0.1)
+  - Realm (0.102.1):
+    - Realm/Headers (= 0.102.1)
+  - Realm/Headers (0.102.1)
+  - RealmSwift (0.102.1):
+    - Realm (= 0.102.1)
+  - SwiftLocation (0.9.0)
+  - SwiftyJSON (2.3.2)
+
+DEPENDENCIES:
+  - Alamofire (~> 3.0.1)
+  - DateTools (~> 1.7)
+  - FBSDKLoginKit (~> 4.13)
+  - Kingfisher (~> 2.0.4)
+  - ObjectMapper (~> 1.0.1)
+  - RealmSwift (~> 0.98)
+  - SwiftLocation (~> 0.9.0)
+  - SwiftyJSON (~> 2.3.2)
+
+SPEC CHECKSUMS:
+  Alamofire: 2457e1b2e6c46bb05c3a598c542b7bfd08893775
+  Bolts: a0058fa3b331c5a1e4402d534f2dae36dbff31e4
+  DateTools: 53288ee8b905fdc75897a1e6b5cc0144b14cba60
+  FBSDKCoreKit: 2807fe0da2ddb49a1469da6d6ff597f99912980f
+  FBSDKLoginKit: 6d350cb6a22d6956e9d078885de6ee8a0ebc51b4
+  Kingfisher: 8f1ec2c067ade2c549a1a594379b69c4b1ff81ab
+  ObjectMapper: 98524bac0dca46c6b3d5ee02cd410fc700ec6ce2
+  Realm: 5254be610db3e5024879684717bf038990bb59ec
+  RealmSwift: 3e24e6bcf56d98ccc134f4909e00839b81a659af
+  SwiftLocation: f18e71300a89f2a81001c9615b7694150e6b84de
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+
+PODFILE CHECKSUM: fd103bd9ed616621b7561c974825a734783766b4
+
+COCOAPODS: 1.0.0
